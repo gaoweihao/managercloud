@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="30f1d972-176e-4aa1-8b81-b56ecb23153c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-api/managercloud-api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-api/src/main/java/com/manager/springcloud/entities/UserInfoEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-api/src/main/java/com/manager/springcloud/service/UserInfoClentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-api/src/main/java/com/manager/springcloud/service/UserInfoClientServiceFallbackFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-api/target/classes/com/manager/springcloud/entities/UserInfoEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-api/target/classes/com/manager/springcloud/service/UserInfoClentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-api/target/classes/com/manager/springcloud/service/UserInfoClientServiceFallbackFactory$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-api/target/classes/com/manager/springcloud/service/UserInfoClientServiceFallbackFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-comsumer-hystris-dashboard/managercloud-comsumer-hystris-dashboard.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-comsumer-hystris-dashboard/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-comsumer-hystris-dashboard/src/main/java/com/manager/srpingcloud/UserInfoConsumer_dashboard_App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-comsumer-hystris-dashboard/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-comsumer-hystris-dashboard/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-comsumer-hystris-dashboard/target/classes/com/manager/srpingcloud/UserInfoConsumer_dashboard_App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-comsumer-userinfo-feign/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-comsumer-userinfo-feign/src/main/java/com/manager/springcloud/UserInfoConsume80_feign_App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-comsumer-userinfo-feign/src/main/java/com/manager/springcloud/cfgbeans/ConfigBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-comsumer-userinfo-feign/src/main/java/com/manager/springcloud/controllser/UserInfoController_Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-comsumer-userinfo-feign/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-comsumer-userinfo-feign/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-comsumer-userinfo-feign/target/classes/com/manager/springcloud/UserInfoConsume80_feign_App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-comsumer-userinfo-feign/target/classes/com/manager/springcloud/cfgbeans/ConfigBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-comsumer-userinfo-feign/target/classes/com/manager/springcloud/controllser/UserInfoController_Consumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-consumer-userinfo-80/managercloud-consumer-userinfo-80.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-consumer-userinfo-80/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-consumer-userinfo-80/src/main/java/com/manager/myrule/MyselfRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-consumer-userinfo-80/src/main/java/com/manager/myrule/RandomRule_ZY.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-consumer-userinfo-80/src/main/java/com/manager/springcloud/UserInfoConsume80_App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-consumer-userinfo-80/src/main/java/com/manager/springcloud/cfgbeans/ConfigBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-consumer-userinfo-80/src/main/java/com/manager/springcloud/controllser/UserInfoController_Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-consumer-userinfo-80/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-eureka-7001/managercloud-eureka-7001.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-eureka-7001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-eureka-7001/src/main/java/com/manager/springcloud/EurekaService7001_App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-eureka-7001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-eureka-7001/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-eureka-7001/target/classes/com/manager/springcloud/EurekaService7001_App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-provider-userinfo-8001/managercloud-provider-userinfo-8001.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-provider-userinfo-8001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-provider-userinfo-8001/src/main/java/com/manager/springcloud/UserInfoProvider8001_App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-provider-userinfo-8001/src/main/java/com/manager/springcloud/controller/UserInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-provider-userinfo-8001/src/main/java/com/manager/springcloud/dao/UserInfoDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-provider-userinfo-8001/src/main/java/com/manager/springcloud/service/UserInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-provider-userinfo-8001/src/main/java/com/manager/springcloud/service/impl/UserInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-provider-userinfo-8001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-provider-userinfo-8001/src/main/resources/mybatis/mapper/UserInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-provider-userinfo-8001/src/main/resources/mybatis/mybatis.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-provider-userinfo-8002/managercloud-provider-userinfo-8002.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-provider-userinfo-8002/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-provider-userinfo-8002/src/main/java/com/manager/springcloud/UserInfoProvider8002_App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-provider-userinfo-8002/src/main/java/com/manager/springcloud/controller/UserInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-provider-userinfo-8002/src/main/java/com/manager/springcloud/dao/UserInfoDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-provider-userinfo-8002/src/main/java/com/manager/springcloud/service/UserInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-provider-userinfo-8002/src/main/java/com/manager/springcloud/service/impl/UserInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-provider-userinfo-8002/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-provider-userinfo-8002/src/main/resources/mybatis/mapper/UserInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-provider-userinfo-8002/src/main/resources/mybatis/mybatis.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-provider-userinfo-8003/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-provider-userinfo-8003/src/main/java/com/manager/springcloud/UserInfoProvider8003_App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-provider-userinfo-8003/src/main/java/com/manager/springcloud/controller/UserInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-provider-userinfo-8003/src/main/java/com/manager/springcloud/dao/UserInfoDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-provider-userinfo-8003/src/main/java/com/manager/springcloud/service/UserInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-provider-userinfo-8003/src/main/java/com/manager/springcloud/service/impl/UserInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-provider-userinfo-8003/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-provider-userinfo-8003/src/main/resources/mybatis/mapper/UserInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-provider-userinfo-8003/src/main/resources/mybatis/mybatis.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-provider-userinfo-hystrix-8001/managercloud-provider-userinfo-hystrix-8001.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-provider-userinfo-hystrix-8001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-provider-userinfo-hystrix-8001/src/main/java/com/manager/springcloud/UserInfoProvider8001_HyStrix_App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-provider-userinfo-hystrix-8001/src/main/java/com/manager/springcloud/controller/UserInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-provider-userinfo-hystrix-8001/src/main/java/com/manager/springcloud/dao/UserInfoDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-provider-userinfo-hystrix-8001/src/main/java/com/manager/springcloud/service/UserInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-provider-userinfo-hystrix-8001/src/main/java/com/manager/springcloud/service/impl/UserInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-provider-userinfo-hystrix-8001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-provider-userinfo-hystrix-8001/src/main/resources/mybatis/mapper/UserInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-provider-userinfo-hystrix-8001/src/main/resources/mybatis/mybatis.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-provider-userinfo-hystrix-8001/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-provider-userinfo-hystrix-8001/target/classes/com/manager/springcloud/UserInfoProvider8001_HyStrix_App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-provider-userinfo-hystrix-8001/target/classes/com/manager/springcloud/controller/UserInfoController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-provider-userinfo-hystrix-8001/target/classes/com/manager/springcloud/dao/UserInfoDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-provider-userinfo-hystrix-8001/target/classes/com/manager/springcloud/service/UserInfoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-provider-userinfo-hystrix-8001/target/classes/com/manager/springcloud/service/impl/UserInfoServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-provider-userinfo-hystrix-8001/target/classes/mybatis/mapper/UserInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-provider-userinfo-hystrix-8001/target/classes/mybatis/mybatis.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-zuul-gaetway-9527/managercloud-zuul-gaetway-9527.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-zuul-gaetway-9527/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-zuul-gaetway-9527/src/main/java/com/manager/springboot/Zuul_9527_StartSpringCloudApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-zuul-gaetway-9527/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-zuul-gaetway-9527/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud-zuul-gaetway-9527/target/classes/com/manager/springboot/Zuul_9527_StartSpringCloudApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercloud.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercould-eureka-7002/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercould-eureka-7002/src/main/java/com/manager/springcloud/EurekaService7002_App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercould-eureka-7002/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercould-eureka-7003/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercould-eureka-7003/src/main/java/com/manager/springcloud/EurekaService7003_App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/managercould-eureka-7003/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="G:\workspace\managercloud\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="E:\maven\maven-3.5.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Y9jCIFbHwBb6lEGanG0RJcqB3v" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.manager.springcloud" />
+      <recent name="springcloud" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\workspace\managercloud\managercloud-zuul-gaetway-9527\src\main\resources" />
+      <recent name="G:\workspace\managercloud\managercloud-provider-userinfo-hystrix-8001\src\main\java" />
+      <recent name="G:\workspace\managercloud\managercloud-provider-userinfo-hystrix-8001\src\main\resources" />
+      <recent name="G:\workspace\managercloud\managercloud-comsumer-userinfo-feign\src\main\resources" />
+      <recent name="G:\workspace\managercloud\managercloud-comsumer-userinfo-feign\src\main\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Zuul_9527_StartSpringCloudApp">
+    <configuration name="UserInfoConsume80_feign_App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.manager.springcloud.UserInfoConsume80_feign_App" />
+      <module name="managercloud-comsumer-userinfo-feign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.manager.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserInfoConsumer_dashboard_App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.manager.srpingcloud.UserInfoConsumer_dashboard_App" />
+      <module name="managercloud-comsumer-hystris-dashboard" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.manager.srpingcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserInfoProvider8001_App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.manager.springcloud.UserInfoProvider8001_App" />
+      <module name="managercloud-provider-userinfo-8001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.manager.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserInfoProvider8001_HyStrix_App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.manager.springcloud.UserInfoProvider8001_HyStrix_App" />
+      <module name="managercloud-provider-userinfo-hystrix-8001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.manager.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Zuul_9527_StartSpringCloudApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.manager.springboot.Zuul_9527_StartSpringCloudApp" />
+      <module name="managercloud-zuul-gaetway-9527" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.manager.springboot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.UserInfoConsumer_dashboard_App" />
+        <item itemvalue="Application.UserInfoProvider8001_HyStrix_App" />
+        <item itemvalue="Application.Zuul_9527_StartSpringCloudApp" />
+        <item itemvalue="Application.UserInfoConsume80_feign_App" />
+        <item itemvalue="Application.UserInfoProvider8001_App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="30f1d972-176e-4aa1-8b81-b56ecb23153c" name="Default Changelist" comment="" />
+      <created>1582361576640</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582361576640</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#Project_Structure" timestamp="1582469200211">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1582469200211" />
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1582620220432">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1582620220432" />
+    <state x="613" y="378" width="694" height="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582469869572">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="613" y="378" width="694" height="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1582469869572" />
+    <state x="609" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1582620162239">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="609" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582620162239" />
+    <state x="397" y="111" key="CommitChangelistDialog2" timestamp="1585491051045">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="397" y="111" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585491051045" />
+    <state x="665" y="188" key="FileChooserDialogImpl" timestamp="1585490722383">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="665" y="188" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585490722383" />
+    <state width="1877" height="317" key="GridCell.Tab.0.bottom" timestamp="1582728362255">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="317" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582728362255" />
+    <state width="1877" height="317" key="GridCell.Tab.0.center" timestamp="1582728362252">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="317" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582728362252" />
+    <state width="1877" height="317" key="GridCell.Tab.0.left" timestamp="1582728362252">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="317" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582728362252" />
+    <state width="1877" height="317" key="GridCell.Tab.0.right" timestamp="1582728362253">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="317" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582728362253" />
+    <state x="195" y="116" key="SettingsEditor" timestamp="1585489852453">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="195" y="116" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585489852453" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1583478200243">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583478200243" />
+    <state x="283" y="312" key="com.intellij.javaee.MapExternalResourceDialog" timestamp="1582372015659">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="283" y="312" key="com.intellij.javaee.MapExternalResourceDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582372015659" />
+    <state x="160" y="246" key="new project wizard" timestamp="1582689139077">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="160" y="246" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1582689139077" />
+  </component>
+</project>

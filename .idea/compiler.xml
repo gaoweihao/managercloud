@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="managercloud-provider-userinfo-8003" />
+        <module name="managercloud-provider-userinfo-8002" />
+        <module name="managercloud-provider-userinfo-8001" />
+        <module name="managercould-eureka-7002" />
+        <module name="managercloud-zuul-gaetway-9527" />
+        <module name="managercloud-provider-userinfo-hystrix-8001" />
+        <module name="managercloud-api" />
+        <module name="managercloud-comsumer-hystris-dashboard" />
+        <module name="managercould-eureka-7003" />
+        <module name="managercloud-consumer-userinfo-80" />
+        <module name="managercloud-comsumer-userinfo-feign" />
+        <module name="managercloud-eureka-7001" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="anagercloud-consumer-userinfo-feign" target="1.8" />
+      <module name="manager-provider-useinfo-8003" target="1.8" />
+      <module name="managercould-erueka-7002" target="1.8" />
+      <module name="untitled" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
